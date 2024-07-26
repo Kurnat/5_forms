@@ -1,0 +1,44 @@
+.form {
+    background-color: hsl(210, 4%, 91%);
+    width: 400px;
+    padding: 1rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset, textarea, input:not([type=radio]):not([type=checkbox]):not([type=number]) {
+    width: 200px;
+}
+
+[type=number] {
+    margin-right: 135px;
+}
+
+.buttons_group {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_group > button {
+    margin: 0 .5rem;
+}
+
+.agreements {
+    margin: 1rem;
+}
+select {
+    margin-right: 60px;
+}
+
+.country {
+    margin-top: auto;
+}
